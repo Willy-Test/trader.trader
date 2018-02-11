@@ -22,7 +22,7 @@ spec:
         ports:
         - containerPort: 9080
         resources: {}
-- args:
+      - args:
         - proxy
         - sidecar
         - --configPath
